@@ -6,7 +6,7 @@ module.exports = {
       params: {
        path: "app",
         message: [
-          "{{platform === 'win32' ? 'run.bat' : 'run.sh'}}",    // Edit with your custom commands
+          "{{platform === 'win32' ? 'run.bat' : 'sudo chmod +x run.sh'}}",    // Edit with your custom commands
         ],
         on: [{
           // The regular expression pattern to monitor.
