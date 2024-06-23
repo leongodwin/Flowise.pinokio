@@ -5,7 +5,7 @@ module.exports = {
       method: "shell.run",
       params: {
         message: [
-          "git clone https://github.com/leonvanzyl/flowise-tutorial-2024 app",
+          "git clone https://github.com/FlowiseAI/Flowise.git",
           "npm install -g pnpm",
         ]
       }
